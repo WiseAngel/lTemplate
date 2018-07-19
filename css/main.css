@@ -1,0 +1,79 @@
+@import url(../libs/bootstrap/css/bootstrap-reboot.min.css);
+@import url(../libs/bootstrap/css/bootstrap-grid.min.css);
+@font-face {
+  font-family: "roboto";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "roboto";
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/RobotoBold/RobotoBold.eot");
+  src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "roboto";
+  font-weight: med;
+  font-style: normal;
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+  src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"), url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype"); }
+::-webkit-input-placeholder {
+  color: #666; }
+:-ms-input-placeholder {
+  color: #666; }
+::-ms-input-placeholder {
+  color: #666; }
+::placeholder {
+  color: #666; }
+
+::-moz-selection {
+  background-color: orange;
+  color: #fff; }
+
+::selection {
+  background-color: orange;
+  color: #fff; }
+
+html, body {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.65;
+  font-family: "roboto-example", sans-serif;
+  overflow-x: hidden; }
+  body input, body textarea {
+    border: #666 1px solid;
+    outline: none; }
+    body input:focus:required:invalid, body textarea:focus:required:invalid {
+      border-color: red; }
+    body input:required:valid, body textarea:required:valid {
+      border-color: green; }
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+.text-center {
+  text-align: center; }
+
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /* */ }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /* */ }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /* */ }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 576px) {
+  /* */ }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /* */ }
